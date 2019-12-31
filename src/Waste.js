@@ -1,11 +1,11 @@
 import React from 'react';
+import Month from './Month';
 
-export default class WasteCalendar extends React.Component {
-  render() {
-    return (
-      <div className="WasteCalendar">
-        Waste Calendar
-      </div>
-    );
-  }
-}
+export default function WasteCalendar() {
+  return (
+    <div className={'WasteCalendar'}>
+      <h2>Waste Calendar</h2>
+      <Month />
+    </div>
+  );
+};

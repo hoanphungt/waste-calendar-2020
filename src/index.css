@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.plastic {
+  background-color: orange;
+}
+
+.paper {
+  background-color: lightblue;
+}
+
+.food {
+  background-color: greenyellow;
+}
