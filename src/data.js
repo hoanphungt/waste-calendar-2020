@@ -10,6 +10,7 @@ export const year2020 = {
       plastic: [7],
       paper: [21],
     },
+    info: 'January 2020'
   },
   february: {
     wk1: [null, null, null, null, null, 1, 2],
@@ -22,6 +23,7 @@ export const year2020 = {
       plastic: [4],
       paper: [18],
     },
+    info: 'February 2020'
   },
   march: {
     wk1: [null, null, null, null, null, null, 1],
@@ -35,5 +37,6 @@ export const year2020 = {
       plastic: [3, 31],
       paper: [17],
     },
+    info: 'March 2020'
   },
 };

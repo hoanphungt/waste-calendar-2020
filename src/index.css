@@ -12,62 +12,42 @@ code {
     monospace;
 }
 
-.plastic {
-  background-color: orange;
+table {
+  border: 1px solid grey;
+  margin: 20px;
+}
+
+th {
+  border-bottom: 1px solid grey;
+}
+
+td {
+  padding: 10px;
+}
+
+.waste {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+
+.plastic {
+  background-color: orange;
 }
 
 .paper {
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
+  background-color: blue;
 }
 
 .food {
-  background-color: greenyellow;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
+  background-color: green;
 }
 
 .info {
   display: flex;
   align-items: center;
-  margin-top: 40px;
-}
-
-.info-plastic {
-  background-color: orange;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-}
-
-.info-paper {
-  background-color: lightblue;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-}
-
-.info-food {
-  background-color: greenyellow;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
+  margin: 20px;
 }
