@@ -23,6 +23,13 @@ export default function WasteCalendar() {
         <h3>March 2020</h3>
         <Month month={march} />
       </div>
+      <div className={'info'}>
+        <span className={'info-plastic'} />: Plastic
+        &nbsp;&nbsp;
+        <span className={'info-paper'} />: Paper
+        &nbsp;&nbsp;
+        <span className={'info-food'} />: Food
+      </div>
     </div>
   );
 };
