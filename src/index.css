@@ -14,12 +14,30 @@ code {
 
 .plastic {
   background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 .paper {
   background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 .food {
   background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
