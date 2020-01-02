@@ -8,6 +8,8 @@ export default function Info(props) {
       <span className={'waste paper'} />&nbsp;Paper
       &nbsp;&nbsp;
       <span className={'waste food'} />&nbsp;Food
+      &nbsp;&nbsp;
+      <span>Note: In summer, food waste is collected everyweek.</span>
     </div>
   )
 }

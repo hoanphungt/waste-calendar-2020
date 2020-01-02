@@ -26,10 +26,10 @@ export default function Month(props) {
                   month.waste.plastic.includes(date) ? (
                     'waste plastic'
                   ) : (
-                    month.waste.food.includes(date) ? (
-                      'waste food'
-                    ) : month.waste.paper.includes(date) ? (
+                    month.waste.paper.includes(date) ? (
                       'waste paper'
+                    ) : month.waste.food.includes(date) ? (
+                      'waste food'
                     ) : null
                   )
                 }

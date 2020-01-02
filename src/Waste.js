@@ -8,11 +8,13 @@ export default function WasteCalendar() {
   return (
     <div className={'WasteCalendar'}>
       <h2>Waste Calendar</h2>
-      {months.map((month, i) => (
-        <div key={i}>
-          <Month month={month} />
-        </div>
-      ))}
+      <div className={'Calendar'}>
+        {months.map((month, i) => (
+          <div key={i}>
+            <Month month={month} />
+          </div>
+        ))}
+      </div>
       <Info />
     </div>
   );
